@@ -3,9 +3,9 @@ This repository has the description of the hg38 genome categorization of easy, d
 
 ## Genomic Region Stratification for Mosaic Variant Benchmarking
 
-This repository provides a three-tier genomic region stratification framework designed to evaluate somatic and mosaic SNV detection performance across genomic contexts. Regions are categorized based on **practical variant callability**, integrating population-scale accessibility masks and pan-genome mappability resources.
+This repository provides a three-tier genomic region stratification framework designed to evaluate somatic and mosaic variant detection performance across genomic contexts. Regions are categorized based on **practical variant callability**, integrating population-scale accessibility masks and pan-genome mappability resources.
 
-All coordinates are defined on **GRCh38**.
+All coordinates are defined on **GRCh38**, with an official reference genome used in SMaHT (Somatic Mosiacism across Human Tissue) Network.
 
 ---
 
@@ -33,8 +33,8 @@ All coordinates are defined on **GRCh38**.
 
 This stratification is intended for:
 
-- Benchmarking mosaic and somatic SNV callers  
+- Benchmarking mosaic and somatic variant callers  
 - Comparing sensitivity and precision across genomic contexts  
 - Identifying region-specific error modes and guiding method development  
 
-This resource is **not intended for clinical filtering or defining reportable regions**.
+
