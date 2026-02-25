@@ -13,8 +13,8 @@ All coordinates are defined on **GRCh38**, with an official reference genome use
 
 | Category | Definition | Interpretation for Variant Calling | Source |
 |--------|------------|-------------------------------------|--------|
-| **Easy** | Regions included in the **1000 Genomes Project strict accessibility mask** | Most confidently mappable and consistently variant-callable regions across diverse human samples; minimal short-read artifacts | 1000 Genomes Project strict mask ([link](https://github.com/1000genomes/)) |
-| **Difficult** | Regions included in **PanMask pm151 (strict)** but excluded from the 1000 Genomes strict mask | Moderately mappable regions where short-read variant calling is feasible but error-prone; elevated method-dependent artifacts | PanMask pm151 (Li *et al.*, 2025) ([link](https://github.com/lh3/pangraph)) |
+| **Easy** | Regions included in the **1000 Genomes Project strict accessibility mask** | Most confidently mappable and consistently variant-callable regions across diverse human samples; minimal short-read artifacts | 1000 Genomes Project strict mask ([link](https://www.internationalgenome.org/announcements/genome-accessibility-masks/)) |
+| **Difficult** | Regions included in **PanMask pm151 (strict)** but excluded from the 1000 Genomes strict mask | Moderately mappable regions where short-read variant calling is feasible but error-prone; elevated method-dependent artifacts | PanMask pm151 (Li *et al.*, 2025) ([link](https://zenodo.org/records/14911560)) |
 | **Extreme** | Regions outside both the 1000 Genomes strict mask and PanMask pm151 | Poorly resolved regions including highly repetitive or structurally complex loci; unreliable for low-VAF variant detection | Not covered by population or pan-genome masks |
 
 ---
